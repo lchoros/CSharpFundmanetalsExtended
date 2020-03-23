@@ -10,7 +10,9 @@ namespace VariableInHexadecimal
     {
         static void Main(string[] args)
         {
+            string hexaDecimal = Console.ReadLine();
 
+            Console.WriteLine(Convert.ToInt32(hexaDecimal, 16));
         }
     }
 }
